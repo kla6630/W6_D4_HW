@@ -1,0 +1,26 @@
+@import "variables";
+
+.container {
+  margin-inline: 24px;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.flex {
+  display: flex;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+  color: $secondary-color;
+  font: {
+    size: 1.5em;
+    weight: 100;
+  }
+}

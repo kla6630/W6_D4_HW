@@ -1,0 +1,19 @@
+.nav-button {
+  background-color: $secondary-color;
+  border-radius: 6px;
+  border: 1px solid $secondary-color;
+  display: inline-block;
+  cursor: pointer;
+  color: $primary-color;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 6px 24px;
+  text-decoration: none;
+  &:hover {
+    background-color: $hover-color;
+  }
+  &:active {
+    position: relative;
+    top: 1px;
+  }
+}

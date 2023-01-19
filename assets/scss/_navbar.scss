@@ -1,0 +1,40 @@
+@import "variables";
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  background-color: $primary-color;
+  border-bottom: 1px solid $secondary-color;
+}
+
+nav .menu {
+  list-style: none;
+  font-size: 0.85em;
+  margin-block: 1.125rem;
+}
+
+nav .menu li  {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+@media screen and (max-width: 727px) {
+  nav .menu li:not(:nth-last-child(2)):not(:last-child) {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 551px) {
+  nav .menu li:nth-last-child(2) {
+    display: none;
+  }
+}
+
+nav .menu li span {
+  margin-right: 25px;
+}
+
+
